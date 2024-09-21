@@ -1,0 +1,15 @@
+.side-nav {
+  width: 10vw;
+
+  & h2{
+    color: #0001FC;
+    padding: 5px;
+    border-bottom: 2px solid #0001FC;
+  }
+  & ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 20px;
+  }
+}

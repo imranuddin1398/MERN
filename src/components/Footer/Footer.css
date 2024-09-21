@@ -1,0 +1,19 @@
+footer {
+    padding: 3.2rem;
+    text-align: center;
+    background-color: var(--btn-color);
+    color: var(--font-color);
+    margin-top: auto;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .media-pic {
+    margin: 0 10px;
+    cursor: pointer;
+  }

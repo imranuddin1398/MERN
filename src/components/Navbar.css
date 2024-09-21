@@ -1,0 +1,22 @@
+.container {
+    max-width: 160rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 3.2rem;
+
+    & li:hover {
+        border-bottom: 2px solid var(--btn-color);
+    }
+}
+
+.logo-brand img {
+    width: 240px;
+}
